@@ -1,5 +1,6 @@
 import { ReportHandler } from 'web-vitals';
 import { useEffect } from 'react'
+import { useDemo } from 'react'
 
 const reportWebVitals = (onPerfEntry?: ReportHandler) => {
   if (onPerfEntry && onPerfEntry instanceof Function) {
